@@ -1,0 +1,27 @@
+{
+  "name": "xavierchanth-web",
+  "displayName": "+web",
+  "description": "XavierChanth's recommended web development extensions",
+  "version": "0.0.1",
+  "repository": "https://github.com/xavierchanth/code-extensions",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "publisher": "XavierChanth",
+  "license": "BSD 3-Clause",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "GraphQL.vscode-graphql",
+    "bfanger.vscode-styled-jsx-plugin-scss",
+    "blanu.vscode-styled-jsx",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "jock.svg",
+    "wix.vscode-import-cost",
+    "ritwickdey.LiveServer",
+    "ritwickdey.live-sass"
+  ]
+}

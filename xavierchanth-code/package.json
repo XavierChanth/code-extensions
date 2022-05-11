@@ -1,0 +1,26 @@
+{
+  "name": "xavierchanth-code",
+  "displayName": "+code",
+  "description": "XavierChanth's recommended coding extensions",
+  "version": "0.0.1",
+  "repository": "https://github.com/xavierchanth/code-extensions",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "publisher": "XavierChanth",
+  "license": "BSD 3-Clause",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "Gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "adpyke.codesnap",
+    "lyzerk.linecounter",
+    "ms-vsliveshare.vsliveshare",
+    "rangav.vscode-thunder-client",
+    "shardulm94.trailing-spaces",
+    "usernamehw.errorlens",
+    "mhutchie.git-graph"
+  ]
+}

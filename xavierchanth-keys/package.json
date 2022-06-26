@@ -2,7 +2,7 @@
   "name": "xavierchanth-keys",
   "displayName": "+keys",
   "description": "XavierChanth's recommended keybindings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -15,216 +15,258 @@
   "contributes": {
     "keybindings": [
       {
-        "key": "ctrl+k m",
-        "command": "-workbench.action.editor.changeLanguageMode"
-      },
-      {
-        "key": "ctrl+l",
+        "mac":"Cmd+l",
+        "key": "Ctrl+l",
         "command": "workbench.action.editor.changeLanguageMode"
       },
       {
-        "key": "ctrl+shift+b",
+        "mac":"Cmd+shift+b",
+        "key": "Ctrl+shift+b",
         "command": "-workbench.action.tasks.build"
       },
       {
-        "key": "ctrl+shift+b",
+        "mac":"Cmd+shift+b",
+        "key": "Ctrl+shift+b",
         "command": "workbench.action.toggleActivityBarVisibility"
       },
       {
-        "key": "ctrl+shift+g",
+        "mac":"Cmd+shift+g",
+        "key": "Ctrl+shift+g",
         "command": "-workbench.view.scm",
         "when": "workbench.scm.active"
       },
       {
-        "key": "ctrl+shift+g",
+        "mac":"Cmd+shift+g",
+        "key": "Ctrl+shift+g",
         "command": "workbench.action.toggleAuxiliaryBar"
       },
       {
-        "key": "ctrl+d",
+        "mac":"Cmd+d",
+        "key": "Ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
       },
       {
-        "key": "ctrl+d",
+        "mac":"Cmd+d",
+        "key": "Ctrl+d",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
-        "key": "ctrl+u",
+        "mac":"Cmd+u",
+        "key": "Ctrl+u",
         "command": "-cursorUndo",
         "when": "textInputFocus"
       },
       {
-        "key": "ctrl+u",
+        "mac":"Cmd+u",
+        "key": "Ctrl+u",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
-        "key": "ctrl+r",
+        "mac":"Cmd+r",
+        "key": "Ctrl+r",
         "command": "-workbench.action.openRecent"
       },
       {
-        "key": "ctrl+r",
+        "mac":"Cmd+r",
+        "key": "Ctrl+r",
         "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
         "when": "inQuickOpen && inRecentFilesPicker"
       },
       {
-        "key": "ctrl+r",
+        "mac":"Cmd+r",
+        "key": "Ctrl+r",
         "command": "-workbench.action.reloadWindow",
         "when": "isDevelopment"
       },
       {
-        "key": "ctrl+r",
+        "mac":"Cmd+r",
+        "key": "Ctrl+r",
         "command": "workbench.action.reloadWindow"
       },
       {
-        "key": "ctrl+0",
+        "mac":"Cmd+0",
+        "key": "Ctrl+0",
         "command": "-workbench.action.focusSideBar"
       },
       {
-        "key": "ctrl+0",
+        "mac":"Cmd+0",
+        "key": "Ctrl+0",
         "command": "workbench.action.zoomReset"
       },
       {
-        "key": "ctrl+shift+space",
+        "mac":"Cmd+shift+space",
+        "key": "Ctrl+shift+space",
         "command": "-editor.action.triggerParameterHints",
         "when": "editorHasSignatureHelpProvider && editorTextFocus"
       },
       {
-        "key": "ctrl+shift+space",
+        "mac":"Cmd+shift+space",
+        "key": "Ctrl+shift+space",
         "command": "toggleSuggestionDetails",
         "when": "suggestWidgetVisible && textInputFocus"
       },
       {
-        "key": "ctrl+shift+space",
+        "mac":"Cmd+shift+space",
+        "key": "Ctrl+shift+space",
         "command": "editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
       },
       {
-        "key": "ctrl+space",
+        "mac":"Cmd+space",
+        "key": "Ctrl+space",
         "command": "-toggleSuggestionDetails",
         "when": "suggestWidgetVisible && textInputFocus"
       },
       {
-        "key": "ctrl+space",
+        "mac":"Cmd+space",
+        "key": "Ctrl+space",
         "command": "-editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
       },
       {
-        "key": "ctrl+space",
+        "mac":"Cmd+space",
+        "key": "Ctrl+space",
         "command": "workbench.action.showCommands"
       },
       {
-        "key": "ctrl+shift+f",
+        "mac":"Cmd+shift+f",
+        "key": "Ctrl+shift+f",
         "command": "-workbench.view.search",
         "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
       },
       {
-        "key": "ctrl+shift+f",
+        "mac":"Cmd+shift+f",
+        "key": "Ctrl+shift+f",
         "command": "-workbench.action.terminal.searchWorkspace",
         "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
       },
       {
-        "key": "ctrl+shift+f",
+        "mac":"Cmd+shift+f",
+        "key": "Ctrl+shift+f",
         "command": "-workbench.view.search",
         "when": "!searchViewletVisible"
       },
       {
-        "key": "ctrl+shift+f",
+        "mac":"Cmd+shift+f",
+        "key": "Ctrl+shift+f",
         "command": "workbench.view.search"
       },
       {
-        "key": "ctrl+shift+j",
+        "mac":"Cmd+shift+j",
+        "key": "Ctrl+shift+j",
         "command": "workbench.action.terminal.split",
         "when": "terminalFocus && terminalProcessSupported"
       },
       {
-        "key": "ctrl+shift+j",
+        "mac":"Cmd+shift+j",
+        "key": "Ctrl+shift+j",
         "command": "-workbench.action.search.toggleQueryDetails",
         "when": "inSearchEditor || searchViewletFocus"
       },
       {
-        "key": "ctrl+shift+1",
+        "mac":"Cmd+shift+1",
+        "key": "Ctrl+shift+1",
         "command": "-editor.action.replaceOne",
         "when": "editorFocus && findWidgetVisible"
       },
       {
-        "key": "ctrl+shift+1",
+        "mac":"Cmd+shift+1",
+        "key": "Ctrl+shift+1",
         "command": "-search.action.replace",
         "when": "matchFocus && replaceActive && searchViewletVisible"
       },
       {
-        "key": "ctrl+shift+1",
+        "mac":"Cmd+shift+1",
+        "key": "Ctrl+shift+1",
         "command": "-search.action.replaceAllInFile",
         "when": "fileMatchFocus && replaceActive && searchViewletVisible"
       },
       {
-        "key": "ctrl+shift+1",
+        "mac":"Cmd+shift+1",
+        "key": "Ctrl+shift+1",
         "command": "-search.action.replaceAllInFolder",
         "when": "folderMatchFocus && replaceActive && searchViewletVisible"
       },
       {
-        "key": "ctrl+shift+1",
+        "mac":"Cmd+shift+1",
+        "key": "Ctrl+shift+1",
         "command": "workbench.view.explorer"
       },
       {
-        "key": "ctrl+shift+2",
+        "mac":"Cmd+shift+2",
+        "key": "Ctrl+shift+2",
         "command": "-workbench.action.terminal.sendSequence",
         "when": "terminalFocus"
       },
       {
-        "key": "ctrl+shift+2",
+        "mac":"Cmd+shift+2",
+        "key": "Ctrl+shift+2",
         "command": "git-graph.view"
       },
       {
-        "key": "ctrl+shift+3",
+        "mac":"Cmd+shift+3",
+        "key": "Ctrl+shift+3",
         "command": "workbench.view.scm",
         "when": "workbench.scm.active"
       },
       {
-        "key": "ctrl+shift+4",
+        "mac":"Cmd+shift+4",
+        "key": "Ctrl+shift+4",
         "command": "workbench.view.debug"
       },
       {
-        "key": "ctrl+shift+5",
+        "mac":"Cmd+shift+5",
+        "key": "Ctrl+shift+5",
         "command": "-workbench.action.terminal.split",
         "when": "terminalFocus && terminalProcessSupported"
       },
       {
-        "key": "ctrl+shift+5",
+        "mac":"Cmd+shift+5",
+        "key": "Ctrl+shift+5",
         "command": "liveshare.session.focus"
       },
       {
-        "key": "ctrl+shift+6",
+        "mac":"Cmd+shift+6",
+        "key": "Ctrl+shift+6",
         "command": "thunder-client-sidebar.focus"
       },
       {
-        "key": "ctrl+n",
+        "mac":"Cmd+n",
+        "key": "Ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
       },
       {
-        "key": "ctrl+n",
+        "mac":"Cmd+n",
+        "key": "Ctrl+n",
         "command": "explorer.newFile"
       },
       {
-        "key": "ctrl+shift+n",
+        "mac":"Cmd+shift+n",
+        "key": "Ctrl+shift+n",
         "command": "-workbench.action.newWindow"
       },
       {
-        "key": "ctrl+shift+n",
+        "mac":"Cmd+shift+n",
+        "key": "Ctrl+shift+n",
         "command": "explorer.newFolder"
       },
       {
-        "key": "ctrl+shift+e",
+        "mac":"Cmd+shift+e",
+        "key": "Ctrl+shift+e",
         "command": "-workbench.view.explorer"
       },
       {
-        "key": "ctrl+shift+e",
+        "mac":"Cmd+shift+e",
+        "key": "Ctrl+shift+e",
         "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
       },
       {
-        "key": "ctrl+shift+e",
+        "mac":"Cmd+shift+e",
+        "key": "Ctrl+shift+e",
         "command": "flutter.launchEmulator"
       }
     ]

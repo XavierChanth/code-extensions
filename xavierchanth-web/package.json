@@ -2,7 +2,7 @@
   "name": "xavierchanth-web",
   "displayName": "+web",
   "description": "XavierChanth's recommended web development extensions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -22,6 +22,7 @@
     "jock.svg",
     "wix.vscode-import-cost",
     "ritwickdey.LiveServer",
-    "ritwickdey.live-sass"
+    "ritwickdey.live-sass",
+    "kaellarkin.hugo-shortcode-syntax"
   ]
 }

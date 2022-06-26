@@ -2,7 +2,7 @@
   "name": "xavierchanth-code",
   "displayName": "+code",
   "description": "XavierChanth's recommended coding extensions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -21,6 +21,7 @@
     "rangav.vscode-thunder-client",
     "shardulm94.trailing-spaces",
     "usernamehw.errorlens",
-    "mhutchie.git-graph"
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode"
   ]
 }

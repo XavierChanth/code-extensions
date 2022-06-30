@@ -2,7 +2,7 @@
   "name": "xavierchanth-keys",
   "displayName": "+keys",
   "description": "XavierChanth's recommended keybindings",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -14,6 +14,11 @@
   ],
   "contributes": {
     "keybindings": [
+      {
+        "mac":"Cmd+l",
+        "key": "Ctrl+l",
+        "command": "-expandLineSelection"
+      },
       {
         "mac":"Cmd+l",
         "key": "Ctrl+l",
@@ -103,31 +108,29 @@
         "when": "editorHasSignatureHelpProvider && editorTextFocus"
       },
       {
-        "mac":"Cmd+shift+space",
-        "key": "Ctrl+shift+space",
-        "command": "toggleSuggestionDetails",
-        "when": "suggestWidgetVisible && textInputFocus"
-      },
-      {
-        "mac":"Cmd+shift+space",
-        "key": "Ctrl+shift+space",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
-      },
-      {
-        "mac":"Cmd+space",
         "key": "Ctrl+space",
         "command": "-toggleSuggestionDetails",
         "when": "suggestWidgetVisible && textInputFocus"
       },
       {
-        "mac":"Cmd+space",
         "key": "Ctrl+space",
         "command": "-editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
       },
       {
-        "mac":"Cmd+space",
+        "mac":"Ctrl+space",
+        "key": "Ctrl+shift+space",
+        "command": "toggleSuggestionDetails",
+        "when": "suggestWidgetVisible && textInputFocus"
+      },
+      {
+        "mac":"Ctrl+space",
+        "key": "Ctrl+shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+      },
+      {
+        "mac": "Cmd+shift+space",
         "key": "Ctrl+space",
         "command": "workbench.action.showCommands"
       },

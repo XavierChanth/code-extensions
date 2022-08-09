@@ -2,7 +2,7 @@
   "name": "xavierchanth-keys",
   "displayName": "+keys",
   "description": "XavierChanth's recommended keybindings",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -14,6 +14,10 @@
   ],
   "contributes": {
     "keybindings": [
+      {
+        "key": "Ctrl+Cmd+n",
+        "command": "workbench.action.newWindow"
+      },
       {
         "mac":"Cmd+l",
         "key": "Ctrl+l",

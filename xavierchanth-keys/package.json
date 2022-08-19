@@ -2,7 +2,7 @@
   "name": "xavierchanth-keys",
   "displayName": "+keys",
   "description": "XavierChanth's recommended keybindings",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -136,6 +136,20 @@
       {
         "mac": "Cmd+shift+space",
         "key": "Ctrl+space",
+        "command": "workbench.action.showCommands"
+      },
+      {
+        "key": "Cmd+g",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+      },
+      {
+        "key": "Cmd+g",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+      },
+      {
+        "key": "Cmd+g",
         "command": "workbench.action.showCommands"
       },
       {

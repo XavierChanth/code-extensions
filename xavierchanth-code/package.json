@@ -2,7 +2,7 @@
   "name": "xavierchanth-code",
   "displayName": "+code",
   "description": "XavierChanth's recommended coding extensions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -22,6 +22,7 @@
     "shardulm94.trailing-spaces",
     "usernamehw.errorlens",
     "mhutchie.git-graph",
+    "waderyan.gitblame",
     "letmaik.git-tree-compare",
     "esbenp.prettier-vscode"
   ]

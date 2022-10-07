@@ -2,7 +2,7 @@
   "name": "xavierchanth-code",
   "displayName": "+code",
   "description": "XavierChanth's recommended coding extensions",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -25,6 +25,7 @@
     "waderyan.gitblame",
     "letmaik.git-tree-compare",
     "esbenp.prettier-vscode",
-    "tomoki1207.pdf"
+    "tomoki1207.pdf",
+    "bierner.markdown-mermaid"
   ]
 }

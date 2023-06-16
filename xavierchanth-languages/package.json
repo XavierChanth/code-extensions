@@ -2,7 +2,7 @@
   "name": "xavierchanth-languages",
   "displayName": "+languages",
   "description": "XavierChanth's recommended language support extensions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -16,14 +16,12 @@
     "yzhang.markdown-all-in-one",
     "JayFiDev.tablegenerator",
     "timonwong.shellcheck",
-    "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ms-toolsai.jupyter",
     "redhat.vscode-yaml",
-    "ms-vscode.cpptools-extension-pack",
     "redhat.java",
     "mathiasfrohlich.Kotlin",
     "naco-siren.gradle-language",
-    "sswg.swift-lang"
+    "vadimcn.vscode-lldb",
+    "sswg.swift-lang",
+    "GraphQL.vscode-graphql-syntax"
   ]
 }

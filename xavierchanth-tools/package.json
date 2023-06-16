@@ -1,0 +1,28 @@
+{
+  "name": "xavierchanth-tools",
+  "displayName": "+tools",
+  "description": "XavierChanth's recommended tools",
+  "version": "0.0.1",
+  "repository": "https://github.com/xavierchanth/code-extensions",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "publisher": "XavierChanth",
+  "license": "BSD 3-Clause",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "adpyke.codesnap",
+    "ms-vsliveshare.vsliveshare",
+    "rangav.vscode-thunder-client",
+    "tomoki1207.pdf",
+    "humy2833.ftp-simple",
+    "ms-vscode.makefile-tools",
+    "jebbs.plantuml",
+    "bierner.markdown-mermaid",
+    "MS-SarifVSCode.sarif-viewer",
+    "Tyriar.lorem-ipsum",
+    "GraphQL.vscode-graphql-execution"
+  ]
+}

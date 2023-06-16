@@ -14,6 +14,7 @@
   ],
   "extensionPack": [
     "platformio.platformio-ide",
-    "paulober.pico-w-go"
+    "paulober.pico-w-go",
+    "dphans.micropython-ide-vscode"
   ]
 }

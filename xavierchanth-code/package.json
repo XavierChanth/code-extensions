@@ -2,7 +2,7 @@
   "name": "xavierchanth-code",
   "displayName": "+code",
   "description": "XavierChanth's recommended coding extensions",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -15,17 +15,10 @@
   "extensionPack": [
     "Gruntfuggly.todo-tree",
     "aaron-bond.better-comments",
-    "adpyke.codesnap",
     "lyzerk.linecounter",
-    "ms-vsliveshare.vsliveshare",
-    "rangav.vscode-thunder-client",
     "shardulm94.trailing-spaces",
     "usernamehw.errorlens",
-    "mhutchie.git-graph",
-    "waderyan.gitblame",
-    "letmaik.git-tree-compare",
     "esbenp.prettier-vscode",
-    "tomoki1207.pdf",
-    "bierner.markdown-mermaid"
+    "albert.TabOut"
   ]
 }

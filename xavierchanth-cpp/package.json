@@ -1,0 +1,20 @@
+{
+  "name": "xavierchanth-cpp",
+  "displayName": "+cpp",
+  "description": "XavierChanth's recommended C/C++ support extensions",
+  "version": "0.0.1",
+  "repository": "https://github.com/xavierchanth/code-extensions",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "publisher": "XavierChanth",
+  "license": "BSD 3-Clause",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-vscode.cpptools-extension-pack",
+    "jeff-hykin.better-cpp-syntax",
+    "twxs.cmake"
+  ]
+}

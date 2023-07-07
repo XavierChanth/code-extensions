@@ -2,7 +2,7 @@
   "name": "xavierchanth-web",
   "displayName": "+web",
   "description": "XavierChanth's recommended web development extensions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -13,16 +13,12 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "GraphQL.vscode-graphql",
-    "bfanger.vscode-styled-jsx-plugin-scss",
-    "blanu.vscode-styled-jsx",
-    "christian-kohler.npm-intellisense",
     "dbaeumer.vscode-eslint",
-    "eg2.vscode-npm-script",
-    "jock.svg",
+    "christian-kohler.npm-intellisense",
     "wix.vscode-import-cost",
-    "ritwickdey.LiveServer",
-    "glenn2223.live-sass",
+    "GraphQL.vscode-graphql",
+    "Prisma.prisma",
+    "jock.svg",
     "kaellarkin.hugo-shortcode-syntax"
   ]
 }

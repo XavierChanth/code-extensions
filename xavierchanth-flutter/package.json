@@ -2,7 +2,7 @@
   "name": "xavierchanth-flutter",
   "displayName": "+flutter",
   "description": "XavierChanth's recommended Flutter extensions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/xavierchanth/code-extensions",
   "engines": {
     "vscode": "^1.67.0"
@@ -22,6 +22,7 @@
     "Dart-Code.flutter",
     "Nash.awesome-flutter-snippets",
     "circlecodesolution.ccs-flutter-color",
-    "vinicioslc.adb-interface-vscode"
+    "vinicioslc.adb-interface-vscode",
+    "FelixAngelov.bloc"
   ]
 }
